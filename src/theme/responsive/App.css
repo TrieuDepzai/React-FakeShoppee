@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+a {
+  cursor: pointer ;
+}
+.white {
+  color:white!important;
+}
+.black {
+  color:black!important;
+}
+a:hover {
+  color:	#f97b6c !important;
+  text-decoration: none;
+}
+.space {
+  margin:5px;
+}
+.App-logo {
+  height: 34vmin;
+  pointer-events: none;
+}
+
+.eblock {
+  width: fit-content;
+  padding:0px 4px;
+  background-color: black;
+  color:white;
+  border-radius: 4px;
+}
+h1 {
+font-weight: normal;
+}
+
+.li1 {
+display: inline-block;
+font-size: 0.8em;
+list-style-type: none;
+text-transform: uppercase;
+margin-right:4px;
+font-weight: bold;
+}
+ul {
+  
+padding-left:20px;
+}
+.li1 span {
+display: block;
+font-size: 4.5rem;
+}
+
+.wrapper {
+  position: absolute;
+  top: 52%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+  max-width: 880px;
+  height:50px;
+  width: 100%;padding: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .input {
+  width:100%;
+  padding: 15px 20px;
+  border: none;
+}
+.wrapper .btnn {
+  background-color: #fb5533;
+  width:7%;
+  height:70%;
+  border-radius: 2px;
+  position: absolute;
+  top: 67%;
+  right: -12px;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+.mg-10 {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.mg-20 {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.mg-30 {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.mg-l-20{
+  margin-left:20px;
+}
+.mg-r-10{
+  margin-right:10px;
+}
+.mg-all-10 {
+  margin:10px;
+}
+@media (max-width:955px){
+  .hid {
+    display:none;
+  }
+.mg-l-20{
+  margin-left:0px;
+}
+.mg-r-10{
+  margin-right:0px;
+}
+.mg-all-10 {
+  margin:0px;
+}
+}
+.gray {
+  color:rgba(0,0,0,.54);
+}
+.left-n {
+  left:none;
+}
+.flash {
+  padding-left: 16px;
+  width: 114px;
+  height: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1005f53….png) 50% no-repeat;
+  background-size: contain;
+}
+header {
+  margin-bottom:138px;
+}
+.col {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo{
+    animation: App-logo-spin infinite 40s;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.col {
+  padding:0px !important;
+}
+.pd-tb {
+  padding-top:15px !important;
+  padding-bottom:25px !important;
+}
+.pd-tb:hover {
+  outline: 1px solid rgba(0,0,0,.12);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
